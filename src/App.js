@@ -1,7 +1,14 @@
 import React from 'react';
 
+// import components
+import Hero from './components/Hero';
+
 const App = () => {
-  return <div className='bg-indigo-700 py-4'>App</div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 };
 
 export default App;

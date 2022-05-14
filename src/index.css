@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary text-2xl;
+  }
+  .section {
+    @apply py-[100px];
+  }
+  .section-title {
+    @apply text-[65px] font-semibold;
+  }
+  .section-subtitle {
+    @apply text-xl max-w-[875px] mx-auto;
+  }
+}
