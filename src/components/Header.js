@@ -43,7 +43,7 @@ const Header = () => {
           <ul
             className={`${
               showNav ? 'left-0' : '-left-full'
-            } flex flex-col justify-center items-center fixed top-0 bg-fuchsia-300 w-96 h-full duration-200 transition-all`}
+            } flex flex-col justify-center items-center fixed top-0 bg-fuchsia-300 w-80 h-full duration-200 transition-all`}
           >
             {nav.map((item, index) => {
               return (
