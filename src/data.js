@@ -1,4 +1,10 @@
-import { FiYoutube, FiInstagram, FiGithub, FiTwitter } from 'react-icons/fi';
+// remix icons
+import {
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiGithubFill,
+  RiLinkedinFill,
+} from 'react-icons/ri';
 
 // services icons
 import Service1Icon from './assets/img/services/uiux_design.svg';
@@ -47,19 +53,19 @@ export const nav = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <RiYoutubeFill />,
     href: '',
   },
   {
-    icon: <FiInstagram />,
+    icon: <RiInstagramFill />,
     href: '',
   },
   {
-    icon: <FiGithub />,
+    icon: <RiGithubFill />,
     href: '',
   },
   {
-    icon: <FiTwitter />,
+    icon: <RiLinkedinFill />,
     href: '',
   },
 ];

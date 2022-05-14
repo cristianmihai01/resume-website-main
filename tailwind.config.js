@@ -13,7 +13,7 @@ module.exports = {
     screens: {
       sm: '640px',
       md: '768px',
-      lg: '1170px',
+      lg: '1280px',
       xl: '1676px',
     },
     extend: {
@@ -22,7 +22,9 @@ module.exports = {
         heroArrow: "url('/src/assets/img/arrow.svg')",
         aboutPattern: "url('/src/assets/img/pattern.svg')",
         aboutCord: "url('/src/assets/img/cord.svg')",
+        blob: "url('/src/assets/img/blob.svg')",
       },
+
       colors: {
         primary: '#161515',
         accent: {

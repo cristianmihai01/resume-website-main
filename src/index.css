@@ -15,4 +15,7 @@
   .section-subtitle {
     @apply text-xl max-w-[875px] mx-auto;
   }
+  .btn {
+    @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl;
+  }
 }

@@ -1,12 +1,15 @@
 import React from 'react';
 
-// import Images
+// import components
+import Social from './Social';
+
+// import images
 import Man from '../assets/img/man_banner.png';
 
 const Hero = () => {
   return (
-    <section className='section bg-heroText bg-contain bg-no-repeat bg-center'>
-      <div className='container mx-auto'>
+    <section className='section bg-heroText bg-contain bg-no-repeat bg-center lg:bg-top'>
+      <div className='container mx-auto xl:px-[100px]'>
         <div className='lg:flex text-center lg:text-left'>
           <div className='flex-1 lg:max-w-[558px]'>
             <h3 className='text-[18px] lg:text-xl font-semibold mb-2 lg:mb-[50px]'>
@@ -20,13 +23,18 @@ const Hero = () => {
               <span className='lg:pl-[70px]'>Designer</span>
               <span className='w-3 h-3 md:w-5 md:h-5 inline-block bg-accent rounded-full ml-2'></span>
             </h1>
-            <p className='section-subtitle'>
+            <p className='section-subtitle mb-[35px]'>
               Since creative designers often interact with creative teams,
               managers and clients, they need strong communication skills.
             </p>
+            <Social />
+            <button className='btn bg-accent mx-auto lg:mx-0 mb-6 shadow-xl shadow-[#fd59566b]'>
+              Download my CV
+            </button>
           </div>
-          <div className='flex-1 flex justify-end'>
-            <img src={Man} alt='' />
+          <div className='flex-1 flex justify-center lg:justify-end relative'>
+            <img className='z-20' src={Man} alt='' />
+            <div className='w-[350px] h-[400px] sm:w-[553px] sm:h-[753px] bg-blob bg-contain bg-no-repeat mx-auto absolute top-[85px] z-10'></div>
           </div>
         </div>
       </div>
