@@ -22,7 +22,6 @@ const About = () => {
           <div className='absolute left-[38%] top-[42%] md:left-[50%] md:top-[35%] w-32 h-32 bg-accent z-30 rounded-full mix-blend-hue blur-[30px]'></div>
           <img className='mx-auto z-20 relative' src={Image} alt='' />
         </div>
-        <div className='hidden lg:block lg:absolute xl:top-0 lg:left-0 lg:right-0 lg:h-full lg:bg-rope lg:bg-no-repeat lg:bg-bottom lg:bg-contain z-10'></div>
       </div>
     </section>
   );

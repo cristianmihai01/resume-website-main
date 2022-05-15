@@ -8,8 +8,8 @@ import {
 
 // services icons
 import Service1Icon from './assets/img/services/uiux_design.svg';
-import Service2Icon from './assets/img/services/uiux_design.svg';
-import Service3Icon from './assets/img/services/uiux_design.svg';
+import Service2Icon from './assets/img/services/web_design.svg';
+import Service3Icon from './assets/img/services/development.svg';
 
 // brands images
 import Brand1Image from './assets/img/brands/behance.svg';
