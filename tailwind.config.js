@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroText: "url('/src/assets/img/accaro.svg')",
-        aboutCord: "url('/src/assets/img/cord.svg')",
+        rope: "url('/src/assets/img/rope.svg')",
         blob: "url('/src/assets/img/blob.svg')",
       },
       content: {

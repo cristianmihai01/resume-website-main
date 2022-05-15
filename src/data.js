@@ -26,7 +26,7 @@ import PortfolioImage4 from './assets/img/portfolio/p4.jpg';
 import PortfolioImage5 from './assets/img/portfolio/p5.jpg';
 
 // ornament
-import OrnamentImage from './assets/img/cord-1.svg';
+import OrnamentImage from './assets/img/rope-1.svg';
 
 // nav
 export const nav = [
@@ -75,6 +75,7 @@ export const about = {
   title: 'About me',
   subtitle:
     "I'm Justin Vaccaro and i do web design, Graphic Design, User Experiences. habitant et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet.",
+  image: '',
 };
 
 // services
