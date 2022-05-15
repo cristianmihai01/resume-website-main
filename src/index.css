@@ -10,10 +10,13 @@
     @apply py-[100px];
   }
   .section-title {
-    @apply text-[65px] font-semibold;
+    @apply text-3xl lg:text-[65px] font-semibold leading-relaxed;
   }
   .section-subtitle {
-    @apply text-xl max-w-[875px] mx-auto;
+    @apply text-xl max-w-[875px];
+  }
+  .dot {
+    @apply w-2 h-2 inline-block bg-accent rounded-full ml-2;
   }
   .btn {
     @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl;
