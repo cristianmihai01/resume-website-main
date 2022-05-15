@@ -23,7 +23,7 @@ const Hero = () => {
               <span className='lg:pl-[70px]'>Designer</span>
               <span className='w-3 h-3 md:w-5 md:h-5 inline-block bg-accent rounded-full ml-2'></span>
             </h1>
-            <p className='section-subtitle mb-[35px]'>
+            <p className='mb-[35px] text-lg lg:text-xl text-center lg:text-left'>
               Since creative designers often interact with creative teams,
               managers and clients, they need strong communication skills.
             </p>
