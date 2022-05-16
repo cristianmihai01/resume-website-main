@@ -31,13 +31,13 @@ export const nav = [
     name: 'home',
   },
   {
-    name: 'contributors',
-  },
-  {
-    name: 'about me',
+    name: 'about',
   },
   {
     name: 'services',
+  },
+  {
+    name: 'contributors',
   },
   {
     name: 'portfolio',

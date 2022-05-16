@@ -7,7 +7,7 @@ import { nav } from '../data';
 import Logo from '../assets/img/logo.svg';
 
 // import react scroll link
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 // import icons
 import { RiBarChartHorizontalLine, RiCloseFill } from 'react-icons/ri';
@@ -33,7 +33,6 @@ const Header = () => {
       className={`${
         bg ? 'bg-white shadow-lg py-6' : 'py-9'
       }  fixed left-0 right-0 z-50 transition-all`}
-      id='home'
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
@@ -46,9 +45,20 @@ const Header = () => {
             } flex flex-col justify-center items-center fixed top-0 bg-fuchsia-300 w-80 h-full duration-200 transition-all`}
           >
             {nav.map((item, index) => {
+              console.log(item);
               return (
                 <li key={index}>
-                  <Link to={item.name}>{item.name}</Link>
+                  <Link
+                    activeClass='active'
+                    to={item.name}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={750}
+                    className='transition-all'
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}

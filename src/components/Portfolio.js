@@ -5,7 +5,7 @@ import { portfolio } from '../data';
 
 const Portfolio = () => {
   return (
-    <section className='section'>
+    <section className='section' id='portfolio'>
       <div className='container mx-auto'>
         <h3 className='text-center text-2xl lg:text-3xl'>
           {portfolio.preTitle}

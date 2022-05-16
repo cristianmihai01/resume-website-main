@@ -11,7 +11,10 @@ import Social from './Social';
 
 const Contact = () => {
   return (
-    <section className='section before:content-ornament before:flex before:justify-center before:items-center lg:before:mb-44'>
+    <section
+      className='section before:content-ornament before:flex before:justify-center before:items-center lg:before:mb-44'
+      id='contact'
+    >
       <div className='container mx-auto'>
         <h2 className='section-title text-accent'>{contact.title}</h2>
         <p className='section-subtitle'>{contact.subtitle}</p>

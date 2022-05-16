@@ -11,7 +11,10 @@ import CV from '../CV.pdf';
 
 const Hero = () => {
   return (
-    <section className='pt-[100px] bg-heroText bg-contain bg-no-repeat bg-center lg:bg-top'>
+    <section
+      className='pt-[100px] bg-heroText bg-contain bg-no-repeat bg-center lg:bg-top'
+      id='home'
+    >
       <div className='container mx-auto xl:px-[100px]'>
         <div className='lg:flex text-center lg:text-left'>
           <div className='flex-1 lg:max-w-[558px] mt-12'>

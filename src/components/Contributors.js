@@ -5,7 +5,7 @@ import { contributors } from '../data';
 
 const Contributors = () => {
   return (
-    <section className='section'>
+    <section className='section' id='contributors'>
       <div className='container mx-auto'>
         <h2 className='section-title'>
           {contributors.title}
