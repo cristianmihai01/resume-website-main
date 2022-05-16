@@ -31,8 +31,8 @@ const Header = () => {
   return (
     <header
       className={`${
-        bg ? 'bg-white shadow-lg py-6' : 'py-9'
-      }  fixed left-0 right-0 z-50 transition-all`}
+        bg ? 'bg-white shadow-lg py-5' : 'py-9'
+      }  fixed left-0 right-0 z-50 transition-all duration-300`}
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>

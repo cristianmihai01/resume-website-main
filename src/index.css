@@ -21,4 +21,7 @@
   .btn {
     @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl cursor-pointer max-w-[220px];
   }
+  .active {
+    @apply border-b-4 border-white transition-all;
+  }
 }
