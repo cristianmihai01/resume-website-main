@@ -7,7 +7,7 @@
     @apply font-primary text-primary bg-body text-2xl;
   }
   .section {
-    @apply pt-[100px];
+    @apply pt-[100px] pb-[0] lg:py-[100px];
   }
   .section-title {
     @apply text-3xl lg:text-[65px] font-semibold leading-relaxed text-center;
