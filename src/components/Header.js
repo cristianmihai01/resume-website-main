@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 // import nav data
 import { nav } from '../data';
@@ -19,12 +19,7 @@ const Header = () => {
   // window scroll event
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      // if window scrollY is bigger than 100px setBg to true else setBg to false
-      if (window.scrollY > 40) {
-        setBg(true);
-      } else {
-        setBg(false);
-      }
+      return window.scrollY > 40 ? setBg(true) : setBg(false);
     });
   });
 
