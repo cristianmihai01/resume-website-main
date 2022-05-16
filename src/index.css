@@ -13,7 +13,7 @@
     @apply text-3xl lg:text-[65px] font-semibold leading-relaxed text-center;
   }
   .section-subtitle {
-    @apply max-w-[875px] mb-16 text-lg lg:text-xl text-center lg:mx-auto;
+    @apply max-w-[875px] mb-16 lg:mb-[120px] text-lg lg:text-xl text-center lg:mx-auto;
   }
   .dot {
     @apply w-2 h-2 inline-block bg-accent rounded-full ml-2;

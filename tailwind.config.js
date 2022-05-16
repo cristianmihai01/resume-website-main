@@ -25,6 +25,7 @@ module.exports = {
       content: {
         arrow: "url('/src/assets/img/arrow.svg')",
         pattern: "url('/src/assets/img/pattern.svg')",
+        ornament: "url('/src/assets/img/ornament.svg')",
       },
       colors: {
         primary: '#161515',

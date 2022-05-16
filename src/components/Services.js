@@ -23,7 +23,7 @@ const Services = () => {
                   <img src={service.icon} alt='' />
                 </div>
                 <h3 className='text-2xl mb-3 font-semibold'>{service.name}</h3>
-                <p className='text-grey text-lg'>{service.description}</p>
+                <p className='text-grey text-lg mb-24'>{service.description}</p>
               </div>
             );
           })}

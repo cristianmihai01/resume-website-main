@@ -25,9 +25,6 @@ import PortfolioImage3 from './assets/img/portfolio/p3.jpg';
 import PortfolioImage4 from './assets/img/portfolio/p4.jpg';
 import PortfolioImage5 from './assets/img/portfolio/p5.jpg';
 
-// ornament
-import OrnamentImage from './assets/img/rope-1.svg';
-
 // nav
 export const nav = [
   {
@@ -133,28 +130,15 @@ export const contributors = {
 export const portfolio = {
   preTitle: 'Our Regular Updated',
   title: 'Portfolio.',
-  images: [
-    {
-      image: PortfolioImage1,
-    },
-    {
-      image: PortfolioImage2,
-    },
-    {
-      image: PortfolioImage3,
-    },
-    {
-      image: PortfolioImage4,
-    },
-    {
-      image: PortfolioImage5,
-    },
-  ],
+  image1: PortfolioImage1,
+  image2: PortfolioImage2,
+  image3: PortfolioImage3,
+  image4: PortfolioImage4,
+  image5: PortfolioImage5,
 };
 
 // contact
 export const contact = {
-  ornamentImage: OrnamentImage,
   title: 'Contact.',
   subtitle:
     'Truth is a deep kindness that teaches us to be content in our everyday life and share with the people the same happiness. the feeling of sunday is the same everywhere: heavy, melancholy, standing still..',

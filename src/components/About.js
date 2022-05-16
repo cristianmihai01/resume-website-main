@@ -17,7 +17,7 @@ const About = () => {
           {about.title}
           <span className='dot'></span>
         </h2>
-        <p className='section-subtitle'>{about.subtitle}</p>
+        <p className='section-subtitle lg:mb-[60px]'>{about.subtitle}</p>
         <div>
           <div className='absolute left-[38%] top-[42%] md:left-[50%] md:top-[35%] w-32 h-32 bg-accent z-30 rounded-full mix-blend-hue blur-[30px]'></div>
           <img className='mx-auto z-20 relative' src={Image} alt='' />

@@ -5,7 +5,7 @@ import { social } from '../data';
 
 const Social = () => {
   return (
-    <div className='flex justify-center lg:justify-start gap-10 mb-[35px]'>
+    <div className='flex justify-between max-w-[250px] gap-10 mb-[35px]'>
       {social.map((item, index) => {
         return (
           <a className='text-3xl' href={item.href} key={index}>
