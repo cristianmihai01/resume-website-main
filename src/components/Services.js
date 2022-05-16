@@ -12,16 +12,18 @@ const Services = () => {
           <span className='dot'></span>
         </h2>
         <p className='section-subtitle'>{services.subtitle}</p>
-        <div className='grid grid-cols-3 gap-[84px]'>
+        <div className='flex flex-col items-center gap-y-12 lg:flex-row lg:justify-between lg:px-[136px]'>
           {services.skills.map((service, index) => {
             return (
               <div
-                className='bg-grey p-[30px] max-w-[417px] flex justify-center'
+                className='p-[30px] w-full max-w-[417px] flex flex-col hover:bg-white hover:shadow-2xl cursor-crosshair transition-all'
                 key={index}
               >
-                <div className='w-[124px] h-[124px]'>
+                <div className='w-20 h-20 mb-12'>
                   <img src={service.icon} alt='' />
                 </div>
+                <h3 className='text-2xl mb-3 font-semibold'>{service.name}</h3>
+                <p className='text-grey text-lg'>{service.description}</p>
               </div>
             );
           })}

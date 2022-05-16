@@ -33,6 +33,7 @@ module.exports = {
           hover: '#EB4441',
         },
         grey: '#5F5F5F',
+        body: '#FFFEFD',
       },
     },
   },

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-primary text-primary text-2xl;
+    @apply font-primary text-primary bg-body text-2xl;
   }
   .section {
     @apply pt-[100px];
