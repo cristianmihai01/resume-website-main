@@ -32,7 +32,7 @@ const Header = () => {
     <header
       className={`${
         bg ? 'bg-white shadow-lg py-6' : 'py-9'
-      }  fixed w-full z-50 transition-all`}
+      }  fixed left-0 right-0 z-50 transition-all`}
       id='home'
     >
       <div className='container mx-auto'>

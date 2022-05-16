@@ -15,7 +15,7 @@ const Contact = () => {
       <div className='container mx-auto'>
         <h2 className='section-title text-accent'>{contact.title}</h2>
         <p className='section-subtitle'>{contact.subtitle}</p>
-        <div className='max-w-xs mx-auto mb-28'>
+        <div className='max-w-[200px] lg:max-w-xs mx-auto mb-28'>
           <img className='w-full' src={Logo} alt='' />
         </div>
         <div className='flex justify-center'>

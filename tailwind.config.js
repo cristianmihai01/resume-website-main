@@ -19,11 +19,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroText: "url('/src/assets/img/accaro.svg')",
-        rope: "url('/src/assets/img/rope.svg')",
         blob: "url('/src/assets/img/blob.svg')",
       },
       content: {
         arrow: "url('/src/assets/img/arrow.svg')",
+        rope: "url('/src/assets/img/rope.svg')",
         pattern: "url('/src/assets/img/pattern.svg')",
         ornament: "url('/src/assets/img/ornament.svg')",
       },

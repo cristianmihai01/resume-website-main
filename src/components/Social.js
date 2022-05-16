@@ -8,7 +8,11 @@ const Social = () => {
     <div className='flex justify-between max-w-[250px] gap-10 mb-[35px]'>
       {social.map((item, index) => {
         return (
-          <a className='text-3xl' href={item.href} key={index}>
+          <a
+            className='text-3xl hover:text-accent duration-300 transition-all'
+            href={item.href}
+            key={index}
+          >
             {item.icon}
           </a>
         );
