@@ -16,14 +16,14 @@ const Services = () => {
           {services.skills.map((service, index) => {
             return (
               <div
-                className='p-[30px] w-full max-w-[417px] flex flex-col hover:bg-white hover:shadow-2xl cursor-crosshair transition-all'
+                className='p-[30px] w-full max-w-[417px] flex flex-col hover:bg-white hover:shadow-2xl cursor-crosshair transition-all text-center lg:text-left'
                 key={index}
               >
-                <div className='w-20 h-20 mb-12'>
+                <div className='w-20 h-20 mb-12 mx-auto lg:mx-0'>
                   <img src={service.icon} alt='' />
                 </div>
                 <h3 className='text-2xl mb-3 font-semibold'>{service.name}</h3>
-                <p className='text-grey text-lg mb-24'>{service.description}</p>
+                <p className='text-grey text-lg mb-16'>{service.description}</p>
               </div>
             );
           })}

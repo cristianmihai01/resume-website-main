@@ -42,10 +42,9 @@ const Header = () => {
           <ul
             className={`${
               showNav ? 'left-0' : '-left-full'
-            } flex flex-col justify-center items-center fixed top-0 bg-fuchsia-300 w-80 h-full duration-200 transition-all`}
+            } flex flex-col justify-center items-center fixed top-0 bg-accent text-white text-xl capitalize w-80 h-full gap-y-8 duration-200 transition-all`}
           >
             {nav.map((item, index) => {
-              console.log(item);
               return (
                 <li key={index}>
                   <Link
@@ -55,7 +54,7 @@ const Header = () => {
                     smooth={true}
                     offset={-70}
                     duration={750}
-                    className='transition-all'
+                    className='transition-all cursor-pointer'
                   >
                     {item.name}
                   </Link>
