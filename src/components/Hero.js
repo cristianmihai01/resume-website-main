@@ -2,12 +2,12 @@ import React from 'react';
 
 // import components
 import Social from './Social';
-
 // import images
 import Man from '../assets/img/man_banner.png';
-
 // import CV
 import CV from '../CV.pdf';
+// import icons
+import { RiFileDownloadFill } from 'react-icons/ri';
 
 const Hero = () => {
   return (
@@ -42,6 +42,9 @@ const Hero = () => {
               className='btn bg-accent mx-auto lg:mx-0 mb-6 shadow-xl shadow-[#fd59566b]'
             >
               Download my CV
+              <span className='text-xl ml-3'>
+                <RiFileDownloadFill />
+              </span>
             </a>
           </div>
           <div className='flex-1 flex justify-center lg:justify-end relative xl:after:content-arrow xl:after:w-96 xl:after:h-96 xl:after:block xl:after:absolute xl:after:top-2/4 xl:after:-left-96'>

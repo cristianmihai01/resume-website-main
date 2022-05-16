@@ -19,7 +19,7 @@
     @apply w-2 h-2 inline-block bg-accent rounded-full ml-2;
   }
   .btn {
-    @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl cursor-pointer max-w-[220px];
+    @apply py-4 px-7 text-lg font-medium text-white flex items-center justify-center hover:bg-accent-hover transition-all shadow-xl cursor-pointer max-w-[260px];
   }
   .active {
     @apply border-b-4 border-white transition-all;

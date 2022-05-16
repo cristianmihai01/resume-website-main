@@ -9,6 +9,7 @@ import Contributors from './components/Contributors';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
