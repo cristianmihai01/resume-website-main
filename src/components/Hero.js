@@ -4,8 +4,7 @@ import React from 'react';
 import Social from './Social';
 // import images
 import Man from '../assets/img/man_banner.png';
-// import CV
-import CV from '../CV.pdf';
+
 // import icons
 import { RiFileDownloadFill } from 'react-icons/ri';
 
@@ -33,19 +32,15 @@ const Hero = () => {
               Since creative designers often interact with creative teams,
               managers and clients, they need strong communication skills.
             </p>
-            <div className='mx-auto max-w-min lg:m-0'>
+            <div className='mx-auto max-w-min lg:m-0 relative z-10'>
               <Social />
             </div>
-            <a
-              href={CV}
-              download={CV}
-              className='btn bg-accent mx-auto lg:mx-0 mb-6 shadow-xl shadow-[#fd59566b]'
-            >
+            <button className='btn bg-accent mx-auto lg:mx-0 mb-6 shadow-xl shadow-[#fd59566b] relative z-10'>
               Download my CV
               <span className='text-xl ml-3'>
                 <RiFileDownloadFill />
               </span>
-            </a>
+            </button>
           </div>
           <div className='flex-1 flex justify-center lg:justify-end relative xl:after:content-arrow xl:after:w-96 xl:after:h-96 xl:after:block xl:after:absolute xl:after:top-2/4 xl:after:-left-96'>
             <img className='z-20' src={Man} alt='' />
