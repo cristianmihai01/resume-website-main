@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 // import nav data
 import { nav } from '../data';
@@ -31,9 +31,9 @@ const Header = () => {
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          <a href='#'>
+          <Link to='home' className='cursor-pointer'>
             <img src={Logo} alt='' />
-          </a>
+          </Link>
           <ul
             className={`${
               showNav ? 'left-0' : '-left-full'
@@ -47,7 +47,7 @@ const Header = () => {
                     activeClass='active'
                     spy={true}
                     smooth={true}
-                    offset={-20}
+                    offset={-70}
                     duration={500}
                     className='transition-all'
                   >
