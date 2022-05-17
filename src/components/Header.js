@@ -7,7 +7,7 @@ import { nav } from '../data';
 import Logo from '../assets/img/logo.svg';
 
 // import react scroll link
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 // import icons
 import { RiBarChartHorizontalLine, RiCloseFill } from 'react-icons/ri';
@@ -41,15 +41,15 @@ const Header = () => {
           >
             {nav.map((item, index) => {
               return (
-                <li key={index}>
+                <li className='cursor-pointer' key={index}>
                   <Link
-                    activeClass='active'
                     to={item.name}
+                    activeClass='active'
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={750}
-                    className='transition-all cursor-pointer'
+                    duration={500}
+                    className='transition-all'
                   >
                     {item.name}
                   </Link>

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { RiArrowUpSLine } from 'react-icons/ri';
 
 // import react scroll
-import { animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const ScrollToTop = () => {
   const [show, setShow] = useState(false);
@@ -15,10 +15,14 @@ const ScrollToTop = () => {
     });
   });
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     show && (
       <button
-        onClick={() => scroll.scrollToTop()}
+        onClick={() => scrollToTop()}
         className='btn bg-accent w-14 h-14 fixed bottom-[10%] right-[10%] z-50 transition-all'
       >
         <div className='text-3xl'>
